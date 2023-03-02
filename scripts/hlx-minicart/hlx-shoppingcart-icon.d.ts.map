@@ -1,1 +1,0 @@
-{"version":3,"file":"hlx-shoppingcart-icon.d.ts","sourceRoot":"","sources":["../../src/hlx-minicart/hlx-shoppingcart-icon.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAEH,OAAO,EAAC,UAAU,EAAY,MAAM,KAAK,CAAC;AAG1C;;;;;;GAMG;AACH,qBACa,sBAAuB,SAAQ,UAAU;IACpD,OAAgB,MAAM,0BAUpB;IAEO,MAAM;CAOhB;AAED,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,uBAAuB,EAAE,sBAAsB,CAAC;KACjD;CACF"}

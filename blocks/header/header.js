@@ -1,4 +1,6 @@
-import { getMetadata, decorateIcons } from '../../scripts/lib-franklin.js';
+import {
+  getMetadata, decorateIcons, decorateBlock, decorateBlocks, loadBlock,
+} from '../../scripts/lib-franklin.js';
 
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
@@ -121,6 +123,14 @@ export default async function decorate(block) {
             navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
           }
         });
+      });
+    }
+
+    const navTools = nav.querySelector('.nav-tools');
+    if (navTools) {
+      navTools.querySelectorAll(':scope > div').forEach((navTool) => {
+        decorateBlock(navTool);
+        loadBlock(navTool);
       });
     }
 
