@@ -8,9 +8,9 @@ import { loadCSS } from '../../scripts/lib-franklin.js';
 export default async function decorate(block) {
   const picker = document.createElement('script');
   picker.setAttribute('defer', 'true');
-  picker.setAttribute('src', 'https://static.eolymp.com/adobecdn/index.a92eb863.js');
+  picker.setAttribute('src', 'https://343284-flightpickermfe-stage.adobeio-static.net/index.a92eb863.js');
 
   document.querySelector('head').appendChild(picker);
 
-  loadCSS('https://static.eolymp.com/adobecdn/index.274a6c21.css');
+  loadCSS('https://343284-flightpickermfe-stage.adobeio-static.net/index.274a6c21.css');
 }
