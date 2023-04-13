@@ -9,6 +9,7 @@ export default async function decorate(block) {
 
   const picker = document.createElement('script');
   picker.setAttribute('defer', 'true');
+  picker.setAttribute('type', 'module');
   picker.setAttribute('src', 'https://static.eolymp.com/adobecdn/hlx-minicart.js');
 
   document.querySelector('head').appendChild(picker);
